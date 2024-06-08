@@ -1,0 +1,14 @@
+.card{
+    margin-top: 10vh;
+    height: 15vh;
+    margin-left: 2vw;
+
+}
+.card-text{
+    color: grey;
+    font-size: larger;
+    font-weight: bold;
+}
+.content{
+    display:  flex;
+}

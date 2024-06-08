@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="./css/sidebar.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/dashboard.css">
+<body>
+
+<div class="sidebar">
+  <a class="active" href="/dashboard">Dashboard</a>
+  <a href="/managestudents">Manage Students</ a>
+  <a href="/manageteachers">Manage Teachers</a>
+  <a href="/manageclasses">Manage classes</a>
+  <a class="Logout-btn" href="/">Logout</a>
+</div>
+
+<div class="content">
+  <div class="card" style="width: 19rem;">
+    <div class="card-body">
+      <h5 class="card-title">Total students</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Number of students in school</h6>
+      <p class="card-text"> <%= Stud %></p>
+    </div>
+  </div>
+  <div class="card" style="width: 19rem;">
+    <div class="card-body">
+      <h5 class="card-title">Total Teachers</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Number of Teachers in school</h6>
+      <p class="card-text"> <%= Teach %></p>
+    </div>
+  </div>
+  <div class="card" style="width: 19rem;">
+    <div class="card-body">
+      <h5 class="card-title">Total Classes </h5>
+      <h6 class="card-subtitle mb-2 text-muted">Number of  classes in school</h6>
+      <p class="card-text"> <%= SchoolClasses %></p>
+    </div>
+  </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

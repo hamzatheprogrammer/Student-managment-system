@@ -1,0 +1,11 @@
+.lst-std{
+    text-align: center;
+    margin-bottom: 6vh;
+}
+.ad-std{
+    border: none;
+    background-color: skyblue;
+    border-radius: 50px;
+    width: 150px;
+    font-weight: bold;
+}
